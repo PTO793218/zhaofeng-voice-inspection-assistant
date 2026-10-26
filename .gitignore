@@ -16,3 +16,9 @@ coverage/
 .idea/
 Thumbs.db
 .DS_Store
+
+# Local launchers, hosting bindings and internal delivery notes
+/*.cmd
+/.openai/
+/docs/verification.md
+/docs/语音助手页面更新说明.docx

@@ -5,10 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
-    "build": "tsc --noEmit -p tsconfig.app.json && vite build && node scripts/prepare-sites-build.mjs",
+    "build": "tsc --noEmit -p tsconfig.app.json && vite build",
     "test": "vitest run",
-    "test:watch": "vitest",
-    "test:sites": "node --test tests/sites-worker.test.mjs"
+    "test:watch": "vitest"
   },
   "dependencies": {
     "lucide-react": "^0.468.0",
